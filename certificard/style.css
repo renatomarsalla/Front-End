@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+}
+
+.fundoBranco {
+  /*   background-color: #f7f7f7; */
+  background-color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  color: #ffffff;
+  padding: 64px;
+}
+
+.img {
+  width: 158px;
+  height: 160px;
+  border-radius: 460px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulos {
+  margin-left: 16px;
+}
+
+.titulos h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulos h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  margin-top: 50px;
+  /*   align-items: center; */
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.tituloProjetos {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+  color: #1c1c1c;
+}
+
+.listaProjetos__items {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #1c1c1c;
+  text-align: center;
+  /*   color: #ffffff; */
+}
